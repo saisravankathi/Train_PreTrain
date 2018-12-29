@@ -24,7 +24,7 @@ model.load_weights("model.h5")
 
 model.compile(optimizer=sgd, loss="categorical_crossentropy", metrics=['accuracy'])
 
-test_path = "C:/Keras/ClassifyingPretrained/frames/test/"
+test_path = "C:/Users/Renz/Documents/Train_PreTrain/ClassifyingPretrained/frames/test/"
 
 test_img = []
 for i in os.listdir(test_path):

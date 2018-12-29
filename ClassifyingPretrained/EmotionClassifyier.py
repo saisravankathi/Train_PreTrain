@@ -17,7 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 from keras.utils.np_utils import to_categorical
 
 #training paths defined
-training_path = "C:/Keras/ClassifyingPretrained/frames/"
+training_path = "C:/Users/Renz/Documents/Train_PreTrain/ClassifyingPretrained/frames/"
 smile_path = training_path + "smile/"
 serious_path = training_path + "serious/"
 
